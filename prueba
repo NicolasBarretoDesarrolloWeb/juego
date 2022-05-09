@@ -1,0 +1,40 @@
+<body onLoad="esconderOro()">
+    <div id="uForm">
+        <span id="seconds"></span> segundos
+    </div>
+   <div id="tablero">
+       
+       <table >
+        <tr>
+            <td>
+                <img id="1" src="imagenes/maletinCerrado.jpg" height="200px" width="400px" onclick="mostrarOro(this)" >
+            </td>
+            <td>
+                <img id="2" src="imagenes/maletinCerrado.jpg" height="200px" width="400px" onclick="mostrarOro(this)">
+            </td>
+            <td>
+                <img id="3" src="imagenes/maletinCerrado.jpg" height="200px" width="400px" onclick="mostrarOro(this)">
+            </td>
+           
+
+        </tr>
+        <tr>
+            <td>
+                <img id="4" src="imagenes/maletinCerrado.jpg" height="200px" width="400px" onclick="mostrarOro(this)">
+            </td>
+            <td>
+                <img id="5" src="imagenes/maletinCerrado.jpg" height="200px" width="400px" onclick="mostrarOro(this)">
+            </td>
+            <td>
+                <img id="6" src="imagenes/maletinCerrado.jpg" height="200px" width="400px"  onclick="mostrarOro(this)">
+            </td>
+           
+        </tr>
+    </table>
+    
+</div>
+    <div id="jugarDeNuevo" style="display: none">
+        <button onClick="reintentar()">Jugar de nuevo</button>
+    </div>
+    <div id="info"></div>
+    <script type='text/javascript' src='javascript/main.js'></script>

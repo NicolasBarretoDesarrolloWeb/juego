@@ -1,0 +1,105 @@
+body{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+	background-image: url("imagenes/isla.jpg");
+	background-size: 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+header, section, footer {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+h1{
+font-size:70px;
+margin-top:30px;
+color: #050505 ;
+text-shadow: 1px 1px 10px #FFC300 , 0 0 10px #FFC300 , 0 0 20px #FFC300 ;
+transition: transform .2s;
+text-align: center;
+}
+h3{
+   text-align: center;
+    color: #ff0404;
+    font-size: 70px;
+	margin-left: 50px;
+    text-shadow: 1px 1px 5px #ff0808 , 0 0 20px #ff0404, 0 0 10px #C0C0C0;
+    transition: transform .2s;
+	
+}
+header {
+	height: 130px; 
+    width: 980px;
+	background-color: transparent;
+}
+
+.boton_Enviar{
+    border: 5px solid #FFC300;
+    background-color: black ;
+    width:980px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    font-size: 30px;
+text-decoration: none;
+    border-radius:30px;
+    transition: transform .2s;
+    color: white;
+}
+#uForm{
+	width: 200px;
+	height: 300px;
+	background-color: green;
+	color: antiquewhite;
+
+}
+#tablero{
+	background-color: white;
+	width:980px;
+	margin: 0 auto;
+	margin-top: 200px;
+	border: #FFC300 double 10px;
+	position:relative;	
+	padding-right: 50px;
+	margin-bottom: 50px;
+
+	
+}
+table{
+	width: 100px;
+	}
+
+.remove-bg{
+	filter: brightness(1.1);
+	mix-blend-mode: multiply;
+	width: 600px;
+	height:400px;	
+	
+	
+}
+
+#jugarDeNuevo{
+	margin-top: 50px;
+ margin-left: 0 auto;
+ margin-right: 0 auto;
+	margin: 0 auto;
+	width: 980px;
+	
+}
+#info{
+	position: absolute;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: 200px;
+	margin-top: 10px;
+	width: 500px;;
+
+}

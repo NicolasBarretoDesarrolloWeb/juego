@@ -1,0 +1,140 @@
+body{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/*logo*/
+#encabezado{
+    height: 100px; 
+    width: 980px;
+    background-color:black;
+    box-sizing: border-box;
+}
+.titulo{
+    width:980px;
+    height:100px;
+    background-color: black;
+    text-align:center;
+    margin:0 auto;
+    color: rgba(255, 102, 0, 0.945);
+
+}
+/*css externo*/
+.logo{
+    width:120px;
+    height:100px;
+    background-color: black;
+    float:left;
+    text-align:center;
+}
+.img_Logo{
+    
+    width:120px;
+    height:100px;
+    background-color: black;
+    float:left;
+    text-align:center;
+    
+    
+}
+h1{
+    font-size:60px;
+    margin-top:30px;
+    color: #FFC300 ;
+  text-shadow: 1px 1px 2px #FFC300 , 0 0 10px #FFC300 , 0 0 20px #FFC300 ;
+  transition: transform .2s;
+}
+h1:hover{
+    transform: scale(1.2); }
+h2{
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #C0C0C0 , 0 0 20px #C0C0C0, 0 0 10px #C0C0C0;
+margin-left: 150px;
+ 
+}
+
+
+
+/*formulario*/
+#inicial {
+    width: 980px;
+    height: 100px;
+    background-color:black;
+}
+.Tit_Formulario{
+    width: 940px;
+    height: 50px;
+    margin-left: 20px;  
+    margin-bottom:40px;
+    float: left;
+    background-color: black;
+    
+    
+
+    
+}
+#Formu{
+    width: 980px;
+    height: 200px;
+   margin: 0 auto;
+    background-color:rgb(65, 65, 65);
+
+    box-sizing: border-box;
+    border: 2px solid #FFC300 ;
+    border-radius: 20px;
+
+}
+label{
+    
+    font-size:30px;
+    float: left;
+    margin-top: 30px;
+    color: black;
+    
+}
+.botones{
+    
+    
+    border: 5px solid black;
+    background-color: #C0C0C0;
+    text-align: center;
+  
+    font-size: 30px;
+    float: left;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.boton_edad{
+    margin-top: 45px;
+    border: 5px solid black;
+    background-color: #C0C0C0;
+    
+    width: 80px;
+    float: left; 
+    font-size:25px;
+    text-align:center;
+}
+.letras_Bot{
+text-align:center;
+margin-right: 100px;
+float: right;
+    
+   
+}
+
+.boton_Enviar2{
+    border: 5px solid #FFC300;
+    background-color: black ;
+    
+    margin: 0 auto;
+  text-align: center;
+  
+    font-size: 30px;
+text-decoration: none;
+    border-radius:30px;
+    transition: transform .2s;
+    color: white;
+    float: left;
+}
+
+
